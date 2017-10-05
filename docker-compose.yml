@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  murmur:
+    build: .
+    volumes:
+      - ./data:/data
+    ports:
+      - 64739:64738
